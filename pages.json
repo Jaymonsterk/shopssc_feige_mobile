@@ -1,0 +1,387 @@
+{
+	"easycom": {
+		"autoscan": true,
+		"custom": {
+			"^a-(.*)": "@/components/a-$1/a-$1.vue",
+			"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+		}
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+		    "path" : "pages/public/login",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "",
+		        "enablePullDownRefresh": false,
+		        "app-plus": {
+		            "titleNView": false  //禁用原生导航栏
+		        }
+		    }
+		    
+		}
+		,{
+			"path": "pages/home/index",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom"
+			}
+		}
+	    ,{
+            "path" : "pages/mine/mine",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle":"custom"
+            }
+        }
+		,{
+		    "path" : "pages/mine/set",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "",
+		        "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#E6241A",
+				"navigationBarTextStyle": "white"
+		    }
+		},
+		{
+		    "path" : "pages/public/lang",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "",
+		        "enablePullDownRefresh": false,
+		        "navigationBarBackgroundColor": "#E6241A",
+		        "navigationBarTextStyle": "white"
+		        
+		    }
+		    
+		}
+		,{
+		    "path" : "pages/mine/remittance",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "",
+		        "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#E6241A",
+				"navigationBarTextStyle": "white"
+		    }
+		}
+		,{
+		    "path" : "pages/mine/billRecord",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "",
+		        "enablePullDownRefresh": true,
+				"navigationBarBackgroundColor": "#E6241A",
+				"navigationBarTextStyle": "white",
+                "navigationStyle":"custom"
+		    }
+		}
+        ,{
+            "path" : "pages/mine/rechargeRecord",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": true,
+        		"navigationBarBackgroundColor": "#E6241A",
+        		"navigationBarTextStyle": "white",
+                "navigationStyle":"custom"
+            }
+        }
+        ,{
+            "path" : "pages/mine/withdrawalRecord",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": true,
+        		"navigationBarBackgroundColor": "#E6241A",
+        		"navigationBarTextStyle": "white",
+                "navigationStyle":"custom"
+            }
+        }
+		,{
+		    "path" : "pages/mine/security",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "",
+		        "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#ec332a",
+				"navigationBarTextStyle": "white"
+		    }
+		    
+		}
+		,{
+		    "path" : "pages/mine/recharge",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "",
+		        "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#ec332a",
+				"navigationBarTextStyle": "white"
+		    }
+		    
+		}
+		,{
+		    "path" : "pages/mine/bindCard",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "",
+		        "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#F02539",
+				"navigationBarTextStyle": "white"
+		    }
+		    
+		}
+		,{
+		    "path" : "pages/mine/modifyPassword",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "",
+		        "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#E6241A",
+				"navigationBarTextStyle": "white"
+		    }
+		    
+		}
+		,{
+		    "path" : "pages/mine/cardManage",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "",
+		        "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#E6241A",
+				"navigationBarTextStyle": "white"
+		    }
+		}
+		,{
+		    "path" : "pages/mine/bindMobile",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "",
+		        "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#E6241A",
+				"navigationBarTextStyle": "white"
+		    }
+		    
+		}
+		,{
+		    "path" : "pages/mine/address",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "",
+		        "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#E6241A",
+				"navigationBarTextStyle": "white"
+		    }
+		    
+		}
+		,{
+		    "path" : "pages/mine/myNews",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "",
+		        "enablePullDownRefresh": true,
+				"navigationBarBackgroundColor": "#E6241A",
+				"navigationBarTextStyle": "white"
+		    }
+		    
+		}
+		,{
+		    "path" : "pages/mine/kefu",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "",
+		        "enablePullDownRefresh": true,
+				"navigationBarBackgroundColor": "#E6241A",
+				"navigationBarTextStyle": "white"
+		    }
+		    
+		}
+        ,{
+            "path" : "pages/business/business",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/order/order",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": true,
+				"navigationBarBackgroundColor": "#E6241A",
+				"navigationBarTextStyle": "white",
+                "navigationStyle":"custom"
+            }
+        }
+        ,{
+            "path" : "pages/activity/activity",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+				"navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/public/register",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+                "navigationBarBackgroundColor": "#F02539",
+                "navigationBarTextStyle": "white"
+                
+            }
+            
+        }
+        ,{
+            "path" : "pages/public/verificationUser",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+                "navigationBarBackgroundColor": "#E6241A",
+                "navigationBarTextStyle": "white"
+            }
+            
+        }
+        ,{
+            "path" : "pages/public/checkmode",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+                "navigationBarBackgroundColor": "#E6241A",
+                "navigationBarTextStyle": "white"
+            }
+            
+        }
+        ,{
+            "path" : "pages/business/businessList",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+                "navigationStyle":"custom"
+            }
+            
+        }
+		,{
+		    "path" : "pages/public/certification",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "",
+		        "enablePullDownRefresh": false,
+		        "navigationBarBackgroundColor": "#E6241A",
+		        "navigationBarTextStyle": "white"
+		    }
+		    
+		}
+        ,{
+            "path" : "pages/home/noticeList",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": true,
+				"navigationBarBackgroundColor": "#E6241A",
+				"navigationBarTextStyle": "white"
+            }
+            
+        }
+        ,{
+            "path" : "pages/home/noticeDetail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#E6241A",
+				"navigationBarTextStyle": "white"
+            }
+            
+        }
+        ,{
+            "path" : "pages/activity/activityDetail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+                "navigationBarBackgroundColor": "#E6241A",
+                "navigationBarTextStyle": "white"
+            }
+            
+        }
+        ,{
+            "path" : "pages/order/orderDetail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+                "navigationBarBackgroundColor": "#eb342c",
+                "navigationBarTextStyle": "white"
+            }
+            
+        }
+        ,{
+            "path" : "pages/recharge",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+                "navigationBarBackgroundColor": "#eb342c",
+                "navigationBarTextStyle": "white"
+            }
+            
+        }
+    ],
+	//底部导航
+	// "tabBar": {
+	// 	"color": "#666666",
+	// 	"selectedColor": "#333333",
+	// 	"backgroundColor": "#FFFFFF",
+	// 	"borderStyle": "black",
+	// 	"list": [{
+	// 		"pagePath": "pages/home/index",
+	// 		"iconPath": "static/dbsyh.jpg",
+	// 		"selectedIconPath": "static/dbsyh-active.jpg",
+	// 		"text": "首页"
+	// 	},
+	//     {
+	//     	"pagePath": "pages/order/order",
+	//     	"iconPath": "static/dbddh.jpg",
+	//     	"selectedIconPath": "static/dbddh-active.jpg",
+	//     	"text": "订单"
+	//     },
+	// 	{
+	// 		"pagePath": "pages/business/business",
+	// 		"iconPath": "static/images/123.png",
+	// 		"selectedIconPath": "static/images/123.png",
+	// 		"text": "商家"
+	// 	},
+	// 	{
+	// 		"pagePath": "pages/activity/activity",
+	// 		"iconPath": "static/dbhd.jpg",
+	// 		"selectedIconPath": "static/dbhd-active.jpg",
+	// 		"text": "活动"
+	// 	},
+	// 	{
+	// 		"pagePath": "pages/mine/mine",
+	// 		"iconPath": "static/dbwd.jpg",
+	// 		"selectedIconPath": "static/dbwd-active.jpg",
+	// 		"text": "我的"
+	// 	}]
+	// },
+	// 底部导航样式
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "聚美优品",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#FFFFFF",
+        "backgroundColorBottom":"#F5F5F5",
+        "backgroundColorTop":"#F5F5F5"
+	}
+}

@@ -1,0 +1,225 @@
+{
+	"tabBar":{"home":"Trang Chủ","order":"Đơn Hàng","shop":"Cửa Hàng","active":"Hoạt Động","mine":"Tôi"},
+	"login":{
+		"title":"Chào mừng bạn đến",
+		"place_user":"vui lòng nhập tài khoản",
+		"place_pass":"Xin vui lòng nhập mật khẩu",
+		"lang":"ngôn ngữ",
+		"login":"đăng nhập ngay lập tức",
+		"regis":"Đăng ký tài khoản",
+		"forget":"Quên mật khẩu",
+		"getkefu":"Để lấy lại mật khẩu của bạn, vui lòng liên hệ với dịch vụ khách hàng"
+	},
+	"regis":{
+		"user":"tài khoản",
+		"place_user":"vui lòng nhập tài khoản",
+		"set_pass":"đặt mật khẩu",
+		"place_set":"Vui lòng cài đặt mật khẩu của bạn",
+		"que_pass":"Xác nhận mật khẩu",
+		"place_que":"Vui lòng xác nhận mật khẩu của bạn",
+		"code":"Mã mời",
+		"place_code":"Vui lòng nhập mã mời",
+		"regis":"Đăng ký ngay",
+		"newold":"Mật khẩu mới và mật khẩu đã xác nhận không khớp",
+		"user_leng":"Tên người dùng phải dài ít nhất 6 chữ số",
+		"user_type":"Bạn chỉ có thể nhập tiếng Anh, số hoặc kết hợp tiếng Anh và số",
+		"head_title":"Đăng ký người dùng"
+	},
+	"index":{
+		"hot":"Kinh doanh phổ biến",
+		"cancel":"Hủy bỏ",
+		"look":"Kiểm tra",
+		"quan":"phần còn lại của ngày",
+		"dan":"một"
+	},
+	"order":{
+		"order":"Hồ Sơ Đơn Hàng",
+		"di":"",
+		"qi":"",
+		"pipei":" Đơn hàng",
+		"jifen":"tích điểm",
+		"success":"Thành Công",
+		"padding":"Đang xử lý",
+		"error":"Thất bại",
+		"all":"Tất Cả",
+		"today":"hôm nay",
+		"yesday":"hôm qua",
+		"seven":"Bảy ngày",
+		"dan":"Duy nhất",
+		"shuang":"đôi",
+		"you":"Youpin",
+        "tong":"Hàng tổng hợp",
+		"o_dan":""
+	},
+	"order_deails":{
+		"deails":"chi tiết đơn hàng",
+		"status":"Tình trạng đặt hàng",
+		"fen":"Kết quả bán hàng",
+		"order":"Nội dung đặt hàng",
+		"pipei":"Kết quả",
+		"time":"THời Gian ",
+		"order_num":"Đơn Đặt Hàng",
+		"shop":"Sản PHẩm",
+		"money":"Số lượng đơn đặt hàng"
+	},
+	"business":{
+		"all":"tất cả các",
+		"shop":"lập danh mục các doanh nghiệp",
+		"end":"Đặt Hàng cho đến khi",
+		"jie":"Kết quả Đặt Hàng",
+		"order_load":"phù hợp",
+		"dan":"Duy nhất",
+		"shuang":"đôi",
+		"you":"Youpin",
+		"tong":"Hàng tổng",
+		"dangqian":"điểm hiện tại",
+		"clear":"Hủy Bỏ",
+		"jifen":"Số điểm",
+		"gong":"",
+		"jian":"",
+		"heji":"Toàn bộ ",
+		"submit":"Xác nhận",
+		"zhushu":"Vui lòng chọn số lượng cược",
+		"prop_title":"Xác nhận đơn hàng",
+		"succ":"đặt hàng thành công",
+		"head_title":"hội trường mua sắm",
+		"padding":"phù hợp"
+	},
+	"activity":{
+		"title":"Khuyến mại",
+		"time":"thời gian phát hành",
+		"jifen":" Tích điểm"
+	},
+	"mine":{
+		"user":"tài khoản",
+		"bemer":"Nhận xét",
+		"jifen":" Số Dư",
+		"dui":"Rút tiền",
+		"ming":"Lịch sử đơn hàng",
+		"buy":" Lịch sử nạp",
+		"hui":"Lịch sử rút",
+		"center":"Trung tâm bảo vệ",
+		"msg":"Hộp Thư",
+		"lian":"Chăm sóc khách hàng",
+		"chong":"nạp điện"
+	},
+	"set":{
+		"user":"tài khoản thành viên",
+		"ban":"Phát hiện phiên bản",
+		"clear":"xóa bộ nhớ cache",
+		"out":"đăng xuất",
+		"set":"cài đặt",
+		"conClear":"Xác nhận để xóa bộ nhớ cache",
+		"endClear":"Đã hoàn thành dọn dẹp bộ nhớ cache",
+		"lang":"ngôn ngữ"
+	},
+	"remittance":{
+		"user":"tên chủ thẻ",
+		"yue":"Số dư tài khoản",
+		"huikuan":"Có thể hoàn trả",
+		"huizh":"Số tài khoản",
+		"huiMoney":"Nhập số tiền",
+		"select":"Vui lòng chọn một tài khoản hoàn trả",
+		"min":"Số tiền rút tối thiểu là",
+		"toast_money":"Vui lòng nhập số tiền hoàn lại",
+		"wMin":"Số tiền rút tối thiểu không được nhỏ hơn",
+		"noWith":"Bạn có thể đăng ký hoàn lại tiền sau khi được người bán xem xét",
+		"succ":"thanh toán thành công",
+		"submit":"Gửi đi",
+		"head_title":"hoàn lại tiền",
+		"shen_time":"Thời gian ứng dụng"
+	},
+	"bill":{
+		"head_title":"Lịch sử đơn hàng",
+		"has":"Số dư",
+		"all":"Tất cả",
+		"today":"hôm nay",
+		"yesday":"hôm qua",
+		"seven":"Bảy ngày",
+		"buy_title":"Lịch sự nạp",
+		"gou":"Lịch sự nạp",
+		"hui_title":"Lịch sử rút",
+		"order":"Thất bại",
+		"fen":"Thành công"
+	},
+	"security":{
+		"an":"Mức độ bảo mật tài khoản của bạn ở mức trung bình",
+		"top":"lân đăng nhập cuôi",
+		"bindCard":"Thêm thẻ ngân hàng",
+		"login_pass":"mật khẩu đăng nhập",
+		"card":"Quản lý thẻ ngân hàng chuyển tiền",
+		"set":"Thiết lập một điện thoại bí mật",
+		"head_title":"Trung tâm bảo vệ"
+	},
+	"bindcard":{
+		"cardUser":"tên chủ thẻ",
+		"place_user":"Vui lòng nhập tên của bạn",
+		"place_bank":"Vui lòng nhập tên ngân hàng",
+		"place_card":"Vui lòng nhập số tài khoản",
+		"bank":"tên ngân hàng",
+		"card":"Số tài khoản ngân hàng",
+		"submit":"Xác nhận",
+		"succ":"Liên kết thẻ thành công",
+		"head_title":"Thêm thẻ ngân hàng"
+	},
+	"setpass":{
+		"old":"mật khẩu ban đầu",
+		"place_old":"Vui lòng nhập mật khẩu ban đầu",
+		"new":"mật khẩu đăng nhập",
+		"place_new":"Vui lòng nhập mật khẩu đăng nhập",
+		"que":"Xác nhận mật khẩu",
+		"place_que":"Vui lòng nhập lại mật khẩu của bạn",
+		"confim":"Chắc chắn rồi",
+		"two":"Hai mật khẩu đã nhập không khớp",
+		"succ":"Đặt lại mật khẩu hoàn tất",
+		"head_title":"Đặt mật khẩu đăng nhập"
+	},
+	"cardMange":{
+		"del":"xóa bỏ",
+		"tips":"Để đảm bảo an toàn cho số tiền của bạn, tiền sẽ tự động bị khóa sau khi thanh toán thành công. Nếu bạn cần sửa đổi, vui lòng liên hệ với bộ phận chăm sóc khách hàng. (Nhắc nhở, hãy nhấp đúp vào số thẻ để đặt nó làm mặc định)",
+		"add":"Thêm thẻ ngân hàng",
+		"delCard":"OK để xóa thẻ ngân hàng",
+		"moren":"Đảm bảo đặt làm thẻ ngân hàng mặc định",
+		"succ":"đã xóa thành công",
+		"set":"thiết lập thành công",
+		"head_title":"Quản lý thẻ ngân hàng",
+		"mo":"mặc định"
+	},
+	"tel":{
+		"phone":"Số điện thoại",
+		"place_phone":"Vui lòng nhập số điện thoại di động bạn muốn liên kết",
+		"confim":"Chắc chắn rồi",
+		"succ":"Liên kết số điện thoại di động thành công",
+		"bind":"Ràng buộc chiếc điện thoại bí mật"
+	},
+	"notice":{
+		"notice":"sự thông báo",
+		"detail":"thông báo chi tiết"
+	},
+	"contentText":{
+		"contentdown": "Xem thêm",
+		"contentrefresh": "Đang tải",
+		"contentnomore": "không còn nữa",
+		"cancel":"Hủy bỏ",
+		"confim":"Kết thúc",
+		"confimText":"xác nhận",
+		"redead":"Chắc chắn rồi",
+		"xtZhuan":"Hệ thống số tiền xuất"
+	},
+	"myNews":{
+		"xin":"Ga thư",
+		"hui":"Nhắc nhở thanh toán",
+		"xi":"Số tiền chuyển hệ thống",
+		"ju":"Rút tiền không thành công"
+	},
+	"mineRecharge":{
+		"qian":"chọn ví",
+		"select":"Vui lòng chọn ví",
+		"chong":"Số tiền nạp",
+		"place":"Vui lòng nhập số tiền nạp",
+		"sure":"Chắc chắn rồi",
+		"head_title":"nạp điện",
+		"minMoney":"Số tiền nạp phải lớn hơn 20000"
+	}
+
+}
